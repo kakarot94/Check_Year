@@ -23,14 +23,14 @@ public class CheckYear {
 		} 
 		else if(year%100==0)
 		{
-			System.out.println("Godina "+year+". is leap.");
+			System.out.println("Year "+year+". is leap.");
 		} 
 		else if(year%4==0) 
 		{
-			System.out.println("Godina "+year+". is leap.");
+			System.out.println("Year "+year+". is leap.");
 		} 
 		else
-			System.out.println("Godina "+year+". is not leap.");
+			System.out.println("Year "+year+". is not leap.");
 	}
 	
 	public static int In() {
