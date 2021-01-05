@@ -7,9 +7,7 @@ public class CheckYear {
 	public static Scanner in;
 	
 	public static void main(String[] args) {
-		
-			leapOrNot(In());
-		
+		leapOrNot(in());
 	}
 		
 	
@@ -33,7 +31,7 @@ public class CheckYear {
 			System.out.println("Year "+year+". is not leap.");
 	}
 	
-	public static int In() {
+	public static int in() {
 		
 		in = new Scanner(System.in);
 	
